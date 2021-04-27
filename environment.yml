@@ -2,12 +2,11 @@ name: icme
 channels:
   - defaults
 dependencies:
-  - pickleshare
   - pip
   - python
   - setuptools
   - pip:
-    - cloudpickle
+    - pickle5
     - joblib
     - keras-nightly==2.5.0.dev2021032900
     - keras-preprocessing==1.1.2
