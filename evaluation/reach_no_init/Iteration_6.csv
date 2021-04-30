@@ -1,0 +1,13 @@
+Brain name,Time to update policy,Time since start of training,Time for last experience collection,Number of experiences used for training,Mean return
+TransportBrain,9.256,104.227,1021.610,20516,0.004
+TransportBrain,8.977,198.730,894.839,20504,0.004
+TransportBrain,8.062,289.441,860.139,20504,0.005
+TransportBrain,14.249,418.140,1197.657,20487,0.003
+TransportBrain,12.789,545.175,1171.587,20485,0.006
+TransportBrain,12.936,678.225,1278.110,20524,0.008
+TransportBrain,11.035,807.299,1209.550,20499,0.006
+TransportBrain,10.203,920.572,1074.412,20494,0.004
+TransportBrain,10.020,1033.604,1090.311,20520,0.004
+TransportBrain,9.590,1146.638,1092.786,20537,0.005
+TransportBrain,10.651,1265.831,1155.760,20497,0.006
+TransportBrain,9.573,1372.280,980.816,20489,0.006
