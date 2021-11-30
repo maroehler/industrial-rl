@@ -17,7 +17,7 @@ dependencies:
     - scipy
     - seaborn
     - statsmodels
-    - tensorflow
-    - tensorflow-estimator
-    - tensorflow-probability
+    - tensorflow==2.5.0rc1
+    - tensorflow-estimator==2.5.0rc0
+    - tensorflow-probability==0.12.2
     - werkzeug
