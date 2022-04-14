@@ -3,7 +3,7 @@
 The code can be run using Binder (wait until a virtual machine is ready; "Cell"-->"Run All"):\
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maroehler/industrial-rl/HEAD?filepath=Retrieve.ipynb)
 
-# Learning of similarity in Deep Reinforcement Learning (PPO)
+# Similarity Learning in Deep Reinforcement Learning (PPO)
 
 Hyperparameter configurations are commonly chosen by adapting hyperparamter configurations of similar tasks. While the similarity of supervised learning tasks can be approximated by the similarity of the data sets and similar solutions are reused (so-called meta learning), in Deep Reinforcement Learning only an abstract description of the task exists before training.
 
