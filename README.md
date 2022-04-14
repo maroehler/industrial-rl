@@ -20,7 +20,7 @@ A welding process is divided into three sub-processes: reach, position and weldi
 
 # Results
 ## Embeddings of different tasks (Case Embeddings h)
-The siamese network is trained on 42 existing tasks and and the respective hyperparameter configurations.
+The siamese network is trained on 42 existing tasks and the respective hyperparameter configurations.
 
 <img src="./images/Case_Embeddings.png" width="600"/>
 
