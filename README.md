@@ -11,12 +11,12 @@ A siamese network architecture (Retrieve.ipynb) is used to learn the similarity 
 
 To account for uncertainties (e.g., loss of information due to task abstraction, different possible hyperparameter configurations for the same tasks), a distribution of the similarity of the hyperparameters is specified via Monte Carlo Droput (Probabilistic Layer).
 
-<img src="./images/Siamese_Network.svg" width="400"/>
+<img src="./images/Siamese_Network.svg">
 
 # Test Scenarios
 A welding process is divided into three sub-processes: reach, position and welding.
 
-<img src="./images/Scenarios.svg" width="500"/>
+<img src="./images/Scenarios.svg">
 
 # Results
 ## Embeddings of different tasks (case embeddings h)
@@ -27,19 +27,19 @@ The siamese network is trained on 42 existing tasks and the respective hyperpara
 ## Embeddings of semantic elements (word embeddings)
 As can be assumed, the observability and the sensor technology used (camera or scalar sensor values) have a high influence, since these allow a direct decision regarding the architecture (not fully observable-->recurrent neural networks, camera-->convolutional neural networks). 
 
-<img src="./images/Word_Embeddings.png" width="700"/>
+<img src="./images/Word_Embeddings.png">
 
 ## Uncertainty
 The figure shows the uncertainty in the similarity of two cases in which different hyperparameters are used for the same task. As can be seen from the example of the learning rate, some uncertainty is also found due to the robustness of the RL approach with respect to the hyperparameter selection (e.g. different learning rates).
 
-<img src="./images/Uncertainty.png" width="800"/>
+<img src="./images/Uncertainty.png">
 
 ## Influcence of embedding dimensionality
 While 10 embedding dimensions have been used, further experiments (100 trials per dimension) show similar results for embeddings dimensions as low as 6.
 
-<img src="./images/Dimensions.png" width="700"/>
+<img src="./images/Dimensions.png">
 
 ## Reuse of similar hyperparamter configurations in bayesian optimization
 The figure shows how the reuse of similar hyperparameter configurations speeds up the bayesian optimization. In the test scenarios, only a small improvement in performance is achieved by the further optimization. Therefore, an evaluation of the feasibility of the task can already take place here through a simple reuse of existing solutions.
 
-<img src="./images/BO.png" width="400"/>
+<img src="./images/BO.png">
