@@ -25,7 +25,7 @@ The siamese network is trained on 42 existing tasks and the respective hyperpara
 <img src="./images/Case_Embeddings.png" width="600"/>
 
 ## Embeddings of semantic elements (word embeddings)
-As can be assumed, the observability and the sensor technology used have a high influence, since these allow a direct decision regarding the architecture. 
+As can be assumed, the observability and the sensor technology used have a high influence, since these allow a direct decision regarding the architecture (not fully observable-->recurrent neural networks, camera-->convolutional neural networks). 
 
 <img src="./images/Word_Embeddings.png" width="700"/>
 
