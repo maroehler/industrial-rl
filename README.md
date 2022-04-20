@@ -40,6 +40,6 @@ While 10 embedding dimensions have been used, further experiments (100 trials pe
 <img src="./images/Dimensions.png" width="700"/>
 
 ## Reuse of similar hyperparamter configurations in bayesian optimization
-The figure shows how the reuse of similar hyperparameter configurations to warmstart a bayesian optimization.
+The figure shows how the reuse of similar hyperparameter configurations speeds up the bayesian optimization. In the test scenarios, only a small improvement in performance is achieved by the further optimization. Therefore, an evaluation of the feasibility of the task can already take place here through a simple reuse of existing solutions.
 
 <img src="./images/BO.png" width="400"/>
