@@ -20,12 +20,12 @@ A welding process is divided into three sub-processes: reach, position and weldi
 
 # Results
 ## Embeddings of different tasks (case embeddings h)
-The siamese network is trained on 42 existing tasks and the respective hyperparameter configurations.
+The siamese network is trained on 42 existing tasks and the respective hyperparameter configurations. The figure shows the results of a principal component analysis of the 10-dimensional case embeddings.
 
 <img src="./images/Case_Embeddings.png" width="600"/>
 
 ## Embeddings of semantic elements (word embeddings)
-As can be assumed, the observability and the sensor technology used have a high influence, since these allow a direct decision regarding the architecture (not fully observable-->recurrent neural networks, camera-->convolutional neural networks). 
+As can be assumed, the observability and the sensor technology used (camera or scalar sensor values) have a high influence, since these allow a direct decision regarding the architecture (not fully observable-->recurrent neural networks, camera-->convolutional neural networks). 
 
 <img src="./images/Word_Embeddings.png" width="700"/>
 
