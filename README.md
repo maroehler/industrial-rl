@@ -19,12 +19,12 @@ A welding process is divided into three sub-processes: reach, position and weldi
 <img src="./images/Scenarios.svg" width="500"/>
 
 # Results
-## Embeddings of different tasks (Case Embeddings h)
+## Embeddings of different tasks (case embeddings h)
 The siamese network is trained on 42 existing tasks and the respective hyperparameter configurations.
 
 <img src="./images/Case_Embeddings.png" width="600"/>
 
-## Embeddings of semantic Elements (Word Embeddings)
+## Embeddings of semantic elements (word embeddings)
 As can be assumed, the observability and the sensor technology used have a high influence, since these allow a direct decision regarding the architecture. 
 
 <img src="./images/Word_Embeddings.png" width="700"/>
