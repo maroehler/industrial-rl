@@ -5,7 +5,7 @@ The code can be run using Binder (wait until a virtual machine is ready; "Cell"-
 
 # Similarity Learning in Deep Reinforcement Learning (PPO)
 
-Hyperparameter configurations are commonly chosen by adapting hyperparamter configurations of similar tasks. While the similarity of supervised learning tasks can be approximated by the similarity of the data sets and similar solutions are reused (so-called meta learning), in Deep Reinforcement Learning only an abstract description of the task exists before training.
+Hyperparameter configurations are commonly chosen by reusing hyperparamter configurations of similar tasks. While the similarity of supervised learning tasks can be approximated by the similarity of the data sets and similar solutions are reused (so-called meta learning), in Deep Reinforcement Learning only an abstract description of the task exists before training.
 
 A siamese network architecture (Retrieve.ipynb) is used to learn the similarity of semantic task descriptions with respect to the similarity of hyperparameters. The description of a task using case embeddings is composed of the embeddings of individual elements multiplied by their cardinality.
 
