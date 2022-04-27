@@ -34,7 +34,7 @@ The figure shows the uncertainty in the similarity of two cases in which differe
 
 <img src="./images/Uncertainty.png">
 
-## Influcence of embedding dimensionality
+## Influence of embedding dimensionality
 While 10 embedding dimensions have been used, further experiments (100 trials per dimension) show similar results for embeddings dimensions as low as 6.
 
 <img src="./images/Dimensions.png">
